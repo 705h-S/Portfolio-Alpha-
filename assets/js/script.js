@@ -1,5 +1,5 @@
 
-
+// Atributes to controll the particles 
 particlesJS('particles-js',
   
   {
@@ -15,7 +15,7 @@ particlesJS('particles-js',
         "value": "#ffffff"
       },
       "shape": {
-        "type": "circle",
+        "type": "image",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -24,9 +24,9 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
+          "src": "assets/images/ava.PNG",
+          "width": 400,
+          "height": 400
         }
       },
       "opacity": {
@@ -36,11 +36,11 @@ particlesJS('particles-js',
           "enable": false,
           "speed": 1,
           "opacity_min": 0.1,
-          "sync": false
+          "sync": true
         }
       },
       "size": {
-        "value": 5,
+        "value": 40,
         "random": true,
         "anim": {
           "enable": false,
@@ -98,7 +98,7 @@ particlesJS('particles-js',
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 100
         },
         "push": {
           "particles_nb": 4
