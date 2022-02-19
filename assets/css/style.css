@@ -3,12 +3,12 @@
   height: 100%;
   position: fixed;
   background-color: purple;
-  background-size: cover;
-  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: -1;
 }
-
 .home {
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
   border-style: groove;
   border-color: black;
   border-width: medium;
-  border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 0 0;
   height: 250px;
   width: 250px;
   object-fit: cover;
@@ -35,7 +35,11 @@
   display: flex;
   align-content: center;
   width: 500px;
-  top: 500px;
+  top: 175px;
   border-radius: 50px 50px;
-  z-index: -1;
+  z-index: 2;
+  font-size: xx-large;
+  border-style: groove;
+  border-width: medium;
+  border-color: blueviolet;
 }
