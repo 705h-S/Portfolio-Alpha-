@@ -11,6 +11,7 @@
 
 .home {
   display: flex;
+  align-items: center;
   justify-content: center;
   position: relative;
   top: 200px;
@@ -27,4 +28,14 @@
   width: 250px;
   object-fit: cover;
   object-position: 0 35%;
+}
+
+.card {
+  /* position: relative; */
+  display: flex;
+  align-content: center;
+  width: 500px;
+  top: 500px;
+  border-radius: 50px 50px;
+  z-index: -1;
 }
