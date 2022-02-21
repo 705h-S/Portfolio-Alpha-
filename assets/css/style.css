@@ -30,6 +30,26 @@
   object-position: 0 35%;
 }
 
+h1 {
+  color: white;
+}
+.card {
+  background-color: #212529;
+  color: white;
+}
 .skillcard {
-  transform: translateY(800px);
+  transform: translateY(700px);
+}
+
+.blog {
+  transform: translateY(900px);
+}
+
+.ports {
+  transform: translateY(1020px);
+}
+
+.contact {
+  transform: translateY(1100px);
+  background-color: transparent;
 }
