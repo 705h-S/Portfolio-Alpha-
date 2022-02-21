@@ -46,10 +46,10 @@ h1 {
 }
 
 .ports {
-  transform: translateY(1020px);
+  transform: translateY(1100px);
 }
 
 .contact {
-  transform: translateY(1100px);
+  transform: translateY(1300px);
   background-color: transparent;
 }
