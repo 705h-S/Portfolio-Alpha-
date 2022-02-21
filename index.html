@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="assets/css/style.css"/>
     <!-- Font Awsome  -->
    <script src="https://kit.fontawesome.com/4d6f1a50fa.js" crossorigin="anonymous"></script>
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap" rel="stylesheet">
+
     <title>Joshua Meza</title>
   </head>
 
@@ -22,10 +27,7 @@
     <div id="particles-js"></div>
     <!-- Nav Bar -->
     <header>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link" href="#About">About</a>
-        </li>
+      <ul id="webdesk" class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link" href="#Skillcard">Skills</a>
         </li>
@@ -39,6 +41,36 @@
           <a class="nav-link" href="#Contact">Contact</a>
         </li>
       </ul>
+
+      <!-- Mobile nav -->
+      <div class="Mobilenav">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <ul class="nav flex-column ">
+            <li class="nav-item">
+              <a class="nav-link" href="#Skillcard">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Ports">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+
     </header>
 
     
@@ -46,12 +78,12 @@
     <div class="container-md ">
         <!-- Start of page -->
         <div id="About"class="home row align-items-center">
-            <div class=" col-sm-6">
-              <p> Hello, I'm </p>
+            <div class=" text col-sm-6">
+              <p class="hey">Hello, I'm </p>
            
                 <div class="card-body">
-                  <h5 class="card-title">Joshua Meza</h5>
-                  <p class="card-text">Full Stack Developer from the bay area</p>
+                  <h5 class="name card-title">    Joshua Meza</h5>
+                  <p class="desc card-text">    Full Stack Developer from the bay area</p>
                 </div>
         
             </div>
